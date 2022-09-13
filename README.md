@@ -9,7 +9,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - Tyler
 - josiah 
 - tszfai
-- abiola
+- Abiola
 
 
 ## Prerequisites  <_add anything else that applies_>
