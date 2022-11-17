@@ -16,3 +16,9 @@ a{
     text-decoration: none;
     color:black;
 }
+*::selection{
+    background-color:#ffe5de;
+}
+::-moz-selection{
+    background-color:#ffe5de;
+}
