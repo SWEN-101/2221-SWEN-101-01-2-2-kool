@@ -19,6 +19,6 @@ a{
 *::selection{
     background-color:#ffe5de;
 }
-::-moz-selection{
+*::-moz-selection{
     background-color:#ffe5de;
 }
