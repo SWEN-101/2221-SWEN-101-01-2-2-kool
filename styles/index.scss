@@ -1,0 +1,117 @@
+$dark-grey: #595959;
+$light-grey: #a3a3a3;
+$background-grey: #eee;
+.main{
+    display:flex; 
+    justify-content: space-between;
+    height:100vh;
+}
+#tall-cow{
+    height:100%;
+}
+#moody-logo{
+    display:grid;
+    place-items: center;
+    margin: 2rem auto;
+}
+.left,.right{
+    height:100vh;
+    width:25%;
+    border:5px solid $dark-grey;
+}
+.center{
+    border-top:5px solid $dark-grey;
+    border-bottom: 5px solid $dark-grey;
+    width:50%;
+}
+.content{
+    padding:25px;
+}
+.section-header{
+    border:4px solid $dark-grey;
+    padding:2px 5px;
+}
+.previews{
+    border: 3px solid $dark-grey;
+    margin-top: 2rem;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    & ul li{
+        border:2px solid $light-grey;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin-block:1rem;
+    }
+}
+#contact-image{
+    height:100%;
+}
+
+.contact_us{
+    margin-top:25px;
+    &:hover{
+        transform: scale(1.1);
+        transition: all 500ms ease-in-out;
+    }
+}
+.moodyIntro{
+    text-align:center;
+    padding-top:25px;
+    padding-bottom:50px;
+}
+.loginForm{
+    border-top:5px solid $dark-grey;
+    display:flex;
+    flex-direction: column;
+    padding: 3rem 10rem 3rem 10rem;
+    text-align: center;
+    & h1{
+        margin-bottom:1rem;
+    }
+    & input{
+        height:50px;
+        background-color: $background-grey;
+        padding-left:10px;
+        font-size:25px;
+        margin-block:25px;
+    }
+    & .login-buttons h2{
+        padding:10px 50px;
+        border: 5px solid $dark-grey;
+    }
+    & .login-buttons{
+        display:flex;
+        justify-content: space-around;
+        margin-top:0.75rem;
+    }
+    & .login-buttons a{
+        &:hover{
+            transform: scale(1.1);
+            transition: all 500ms;
+        }
+    }
+}
+.loginWithGoogle{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    margin-block:1.5rem;
+    border: 3px solid $light-grey;
+    border-radius: 15px;
+    width:40%;
+    &:hover{
+        transform: scale(1.1);
+        transition: all 500ms;
+    }
+    & p{
+        margin-right:10px;
+        font-size: large;
+    }
+    & a{
+        display:flex;
+        align-items: center;
+
+    }
+    & .googleLogo{
+        height:50px;
+    }
+}
