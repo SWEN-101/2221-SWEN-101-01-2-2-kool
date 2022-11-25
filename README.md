@@ -26,10 +26,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 4.  
 
 ## Known bugs and disclaimers
-(It may be the case that your implementation is not perfect...)
-
-Document any known bug or nuisance.
-If any shortcomings, make clear what these are and where they are located.
+1. Webpage will not properly display content on unintended screen sizes or minimized/reduced window sizes due to hidden overflows and the lack of responsive design patterns.
 
 ## Link or full list of requirements
  <_you could linkto the specific private board where your backlog is kept_>
