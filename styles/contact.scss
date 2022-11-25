@@ -1,0 +1,75 @@
+$dark-grey: #595959;
+$light-grey: #a3a3a3;
+$bg-grey: #eee;
+
+.contact-header{
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height:15vh;
+}
+.moodyLogo,.empty{
+    height:15vh;
+    color:$bg-grey;
+    padding: 10px 20px;
+}
+.moodyLogo{
+    width:15%;
+}
+.empty{
+    width:25%;
+}
+.main{
+    height:85vh;
+    border:#595959;
+}
+.contactTitle{
+    width:50%;
+    text-align: center;
+    font-size: 3.75rem;
+}
+.helloCow,.left,.center{
+    height:100%;
+}
+.right{
+    border:none;
+    height:85vh;
+}
+.left{
+    display:grid;
+    place-items: center;
+    & img{
+        width:100%;
+    }
+}
+.person{
+    padding: 20px 20px 10px 20px;
+    display:flex;
+    & .person-info{
+        text-align: center;
+        & .personName{
+            border: 2px solid $dark-grey;
+            width:60%;
+            margin:auto;
+        }
+        & img{
+            max-height:200px;
+            border: 4px solid $dark-grey;
+            border-radius: 50px;
+        }
+    }
+    & .personContact{
+        padding-left:3%;
+        & .personTitle{
+            border: 2px solid $dark-grey;
+            margin-bottom:1.25rem;
+            padding:5px;
+        }
+        & .personSocials{
+            border:2px solid $dark-grey;
+            padding: 15px 40px 15px 15px;
+            line-height: 2rem;
+            
+        }
+    }
+}

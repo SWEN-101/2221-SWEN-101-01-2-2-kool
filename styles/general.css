@@ -1,24 +1,55 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family:"Arial";
-    font-weight:lighter;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial";
+  font-weight: lighter;
 }
-body{
-    background-color: #eee;
-    overflow: hidden;
+
+b {
+  font-weight: bold !important;
 }
-ul{
-    list-style: none;
+
+body {
+  background-color: #eee;
+  overflow: hidden;
 }
-a{
-    text-decoration: none;
-    color:black;
+
+ul {
+  list-style: none;
 }
-*::selection{
-    background-color:#ffe5de;
+
+a {
+  text-decoration: none;
+  color: black;
 }
-*::-moz-selection{
-    background-color:#ffe5de;
+
+*::-moz-selection {
+  background-color: #ffe5de;
 }
+
+*::selection {
+  background-color: #ffe5de;
+}
+
+*::-moz-selection {
+  background-color: #ffe5de;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.left, .right {
+  height: 100vh;
+  width: 25%;
+  border: 3px solid #595959;
+}
+
+.center {
+  border-top: 3px solid #595959;
+  border-bottom: 3px solid #595959;
+  width: 50%;
+}/*# sourceMappingURL=general.css.map */

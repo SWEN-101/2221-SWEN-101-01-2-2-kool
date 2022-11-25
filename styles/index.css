@@ -14,18 +14,6 @@
   margin: 2rem auto;
 }
 
-.left, .right {
-  height: 100vh;
-  width: 25%;
-  border: 5px solid #595959;
-}
-
-.center {
-  border-top: 5px solid #595959;
-  border-bottom: 5px solid #595959;
-  width: 50%;
-}
-
 .content {
   padding: 25px;
 }
