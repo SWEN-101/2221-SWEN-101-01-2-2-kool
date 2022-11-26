@@ -37,6 +37,7 @@ $background-grey: #eee;
 }
 #contact-image{
     height:100%;
+    width:100%;
 }
 
 .contact_us{
@@ -90,7 +91,7 @@ $background-grey: #eee;
     margin-block:1.5rem;
     border: 3px solid $light-grey;
     border-radius: 15px;
-    width:40%;
+    padding: 5px;
     &:hover{
         transform: scale(1.1);
         transition: all 500ms;
