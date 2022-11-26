@@ -20,6 +20,9 @@ $background-grey: #eee;
 .section-header{
     border:4px solid $dark-grey;
     padding:2px 5px;
+    text-align: center;
+    width:80%;
+    margin:auto;
 }
 .previews{
     border: 3px solid $dark-grey;

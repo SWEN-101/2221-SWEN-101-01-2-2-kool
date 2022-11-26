@@ -1,8 +1,11 @@
 Home Page: Done
-Settings:
+Settings: Done
 Register: Done
 Availability: 
 Navigation:
-Feed:
-Features:
+Feed: Done?? Sort of
+Features: Done
+    Notes: On left menu, there shouldn't be buttons to access other parts of the page as you can access features without logging in
 Contact: Done
+
+
