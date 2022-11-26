@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Moody</title>
+    <link rel="stylesheet" href="./styles/general.css">
+    <!--Yes this is very lazy-->
+    <!--Reusing previous css because im too lazy to move some things to the general css file I made for that very purpose because i am terrible-->
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/feed.css">
+    <link rel="stylesheet" href="./styles/features.css">
+    <link rel="stylesheet" href="./styles/avail.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+  />
+</head>
+<body>
+    <header class="contact-header">
+
+        <a class="moodyLogo" href="index.html"><img class="moodyImage" src="./images/moody_logo.png" alt="moody-logo"></a>
+        <h1 class="contactTitle">Availability</h1>
+        <span class="empty">.</span>
+    </header>
+    <div class="main">
+        <section class="left">
+            <a href="index.html" class="leftButton">Logout</a>
+            <a href="feed.html" class="leftButton">Feed</a>
+            <a href="nav.html" class="leftButton">Navigation</a>
+            <img src="./images/brain_arm.png" alt="brain arm">
+        </section>
+        <section class="center">
+            <div class="calendar">
+                <div class="month">
+                  <i class="fas fa-angle-left prev"></i>
+                  <div class="date">
+                    <h1></h1>
+                    <p></p>
+                  </div>
+                  <i class="fas fa-angle-right next"></i>
+                </div>
+                <div class="weekdays">
+                  <div>Sun</div>
+                  <div>Mon</div>
+                  <div>Tue</div>
+                  <div>Wed</div>
+                  <div>Thu</div>
+                  <div>Fri</div>
+                  <div>Sat</div>
+                </div>
+                <div class="days"></div>
+              </div>
+        </section>
+        <section class="right">
+            <img class="helloCow"src="./images/noEyesCow.png" alt="cow with upside down u's for eyes">
+        </section>
+
+    </div>
+    <script src="./app/calender.js"></script>
+</body>
+</html>
