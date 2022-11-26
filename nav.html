@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>navigation</title>
+    <title>Register Moody</title>
+    <link rel="stylesheet" href="./styles/general.css">
+    <!--Yes this is very lazy-->
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/register.css">
+    <link rel="stylesheet" href="./styles/map.css">
+    <script src="https://kit.fontawesome.com/700a80ab76.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    
+    <header class="contact-header">
+
+        <a class="moodyLogo" href="index.html"><img class="moodyImage" src="./images/moody_logo.png" alt="moody-logo"></a>
+        <h1 class="contactTitle">Navigation</h1>
+        <span class="empty">.</span>
+    </header>
+    <div class="main">
+        <section class="left">
+            <a href="index.html" class="loginButton">Logout</a>
+            <a href="avail.html" class="loginButton">Availability</a>
+            <a href="feed.html" class="loginButton">Feed</a>
+        </section>
+        <section class="center">
+            <div class="mapDest">
+                <p>Your Location</p>
+                <span class="gg-arrow-long-right"></span>
+                <p>Destination</p>
+            </div>
+            
+            <div class="mapTimeEst">
+                <div class="timeEstItem"><i class="fa-solid fa-car"></i><p>0h 0m</p></div>
+                <div class="timeEstItem"><i class="fa-solid fa-bus-simple"></i><p>0h 0m</p></div>
+                <div class="timeEstItem"><i class="fa-solid fa-person-walking"></i><p>0h 0m</p></div>
+                <div class="timeEstItem"><i class="fa-solid fa-person-biking"></i><p>0h 0m</p></div>
+
+            </div>
+            <img class="mapImage" src="./images/map.png">
+        </section>
+        <section class="right">
+            <img class="helloCow"src="./images/small_cow.png" alt="small cow">
+        </section>
+
+    </div>
 </body>
 </html>
