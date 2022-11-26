@@ -1,0 +1,10 @@
+$dark-grey: #595959;
+.featureListing{
+    width:80%;
+    margin:50px auto;
+    padding:20px;
+    border: 2px solid $dark-grey;
+    & .featureListingContent{
+     font-size: 1.25rem;   
+    }
+}

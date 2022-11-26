@@ -52,4 +52,8 @@ a {
   border-top: 3px solid #595959;
   border-bottom: 3px solid #595959;
   width: 50%;
+}
+
+.space-top {
+  margin-top: 15px;
 }/*# sourceMappingURL=general.css.map */

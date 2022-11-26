@@ -1,0 +1,9 @@
+.featureListing {
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #595959;
+}
+.featureListing .featureListingContent {
+  font-size: 1.25rem;
+}/*# sourceMappingURL=features.css.map */
