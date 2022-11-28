@@ -56,6 +56,8 @@
 .person {
   padding: 20px 0 10px 40px;
   display: flex;
+  align-items:center;
+  
 }
 .person .person-info {
   text-align: center;
@@ -66,7 +68,7 @@
   margin: auto;
 }
 .person .person-info img {
-  max-height: 200px;
+  max-height: 150px;
   border: 4px solid #595959;
   border-radius: 50px;
 }
@@ -80,6 +82,6 @@
 }
 .person .personContact .personSocials {
   border: 2px solid #595959;
-  padding: 15px 40px 15px 15px;
+  padding: 12px 40px 12px 12px;
   line-height: 2rem;
 }/*# sourceMappingURL=contact.css.map */
